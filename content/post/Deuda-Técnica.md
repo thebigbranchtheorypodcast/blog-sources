@@ -17,8 +17,31 @@ audio:
 Esta vez llegamos con un formato muy distinto y con un invitado, Ronny. En este episodio damos un repaso bibliográfico intenso para intentar definir y sentar las bases sobre algunas de las cuestiones más comunes en relación a la Deuda Técnica. Si eres de los que prefieren leer, en este post podrás leer un resumen:
 
 ## ¿Que es la deuda técnica? ¿Como la identificamos?
+
+Es una metáfora importada del mundo financiero por [Ward Cunningham](http://wiki.c2.com/?WardExplainsDebtMetaphor). En ocasiones, en un proyecto de software, nos compensa primar el corto plazo a sabiendas de que estamos tomando una decisión que no se alinea con la estrategia a largo plazo. En este nos estaríamos endeudando. Como toda deuda, esto es una inversión. Por lo que tenemos que estar atentos a cuál es el mejor momento, para pagar esa deuda, no vaya a ser que se nos disparen los intereses.
+
+Normalmente un proyecto suele existir para resolver un problema. Dicho problema tiene una complejidad mínima a la que llamaremos *Complejidad Esencial*. Por lo que cualquier solución que demos, como mínimo va a ser esencialmente tan complejo como el problema. Pero, en ocasiones, añadimos más complejidad a la solución de la que realmente era necesaria. A esta complejidad la llamaremos *Complejidad Accidental*. Esta la vemos presente cuando aparentemente una funcionalidad nos debería llevar 2 días de desarrollo pero finalmente nos lleva 1 semana. Esos son nuestros **intereses**. 
+
+Hablar de deuda técnica debería ser hablar de costes. Coste de leer el código, coste de comprender el software, coste de cambiarlo, etc. 
+
+La deuda técnica no es mala perse. Debemos aprender a gestionarla. Un proyecto en el que nunca se asuma deuda técnica, corre el riesgo de morir antes de salir a producción. Por contra, otro que no para de meter deuda, corre el riesgo de no ser capaz de adaptarse cuando su contexto lo necesite. Es una cuestión de equilibrio, y para conseguir ese equilibrio, debemos aprender a gestionar la deuda técnica y hacerlo habitualmente.
+
+
 ## Tipos de deuda técnica
-## Como hacer visible la deuda técnica asumida (Metricas, Trello, …)
+
+Martin Fowler nos propone clasificar la deuda técnica en un cuadrante con 2 ejes: consciencia y prudencia.
+
+### consciente
+* **Prudente**. Es el mejor escenario, sabemos cómo hacer algo bien pero decidimos hacerlo más rápido porque necesitamos aportar valor rápido. El interés asumido no es muy alto. Tenemos claro que pagaremos esa deuda más adelante.
+* **Temeraria**. El interés a pagar es muy alto, lo asumimos para llegar a una entrega. Es temeraria porque estamos tomando una decisión que nos puede perjudicar mucho.
+### Inconsciente:
+* **Prudente** El mítico "aún tenemos que aprender cómo hacerlo mejor". Somos conscientes de que aún estamos aprendiendo sobre el negocio o la tecnología, pero tratamos de seguir buenas prácticas. Quizás más adelante con más contexto consideraremos que hay otras soluciones mejores.
+* **Temeraria** Esta es habitual en un equipo donde no se conocen o aplican buenas prácticas. Además la sensación de urgencia constante nos lleva a tomar decisiones precipitadas a diario y eso con el paso de los años termina pasando factura. Este es el estado de la mayoría de los legacy que nos encontramos. Abordar este tipo de deuda, es muy complejo. Requiere mucho análisis y definir una estrategia a largo plazo.
+
+## ¿Cómo hacer visible la deuda técnica asumida?
+
+La respuesta más corta que podríamos dar es **en equipo**. Tenemos que trabajar la consciencia en el sentido de que el equipo sepa qué deuda estamos abordando y qué deuda tenemos ya. 
+
 ## Consecuencias de tener deuda técnica
 ## Donde merece la pena tener deuda técnica
 
@@ -28,11 +51,11 @@ Cualquier feedback será bien recibido. A falta de acabar nuestra web si quieres
 
 En este episodio participan
 
-- Alfredo Casado (https://twitter.com/AlfredoCasado)
-- Daniel Ojeda (https://twitter.com/SuuiGD)
-- Juan Vega (https://twitter.com/juandvegarguez)
-- Miguel Viera (https://twitter.com/mangelviera)
-- Ronny Ancorini (https://twitter.com/RonnyAncorini)
+- [Alfredo Casado](https://twitter.com/AlfredoCasado)
+- [Daniel Ojeda](https://twitter.com/SuuiGD)
+- [Juan Vega](https://twitter.com/juandvegarguez)
+- [Miguel Viera](https://twitter.com/mangelviera)
+- [Ronny Ancorini](https://twitter.com/RonnyAncorini)
 
 **Enlaces/Referencias**
 
